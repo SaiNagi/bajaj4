@@ -1,0 +1,9 @@
+GET http://localhost:3000/bfhl
+
+###
+POST http://localhost:3000/bfhl
+Content-Type: application/json
+
+{
+    "data":["A","C","Z","c","i"]
+}
